@@ -1,7 +1,6 @@
 package com.lubanjianye.biaoxuntong.ui.main.user;
 
 import android.os.Bundle;
-
 import com.lubanjianye.biaoxuntong.R;
 import com.lubanjianye.biaoxuntong.base.BaseFragment;
 

@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".ui.launcher.LauncherActivity"
+        <activity
+            android:name=".ui.launcher.LauncherActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.Launcher"
             android:windowSoftInputMode="adjustPan">
@@ -22,7 +23,10 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".base.MainActivity" />
+        <activity
+            android:name=".base.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan" />
     </application>
 
 </manifest>

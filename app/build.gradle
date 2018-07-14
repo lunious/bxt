@@ -9,6 +9,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
 
         //添加支持ARouter
         javaCompileOptions {
@@ -43,4 +44,8 @@ dependencies {
     //butterknife
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //fastjson依赖
+    implementation 'com.alibaba:fastjson:1.2.47'
+    //okhttp-OkGo
+    implementation 'com.lzy.net:okgo:3.0.4'
 }
