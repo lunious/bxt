@@ -48,4 +48,7 @@ dependencies {
     implementation 'com.alibaba:fastjson:1.2.47'
     //okhttp-OkGo
     implementation 'com.lzy.net:okgo:3.0.4'
+    //Fragmentation依赖
+    implementation 'me.yokeyword:fragmentation:1.3.2'
+    implementation 'me.yokeyword:fragmentation-swipeback:1.3.2'
 }
