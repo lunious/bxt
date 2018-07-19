@@ -52,6 +52,4 @@ public abstract class BaseActivity extends SwipeBackActivity {
     protected abstract void initEvent(Bundle savedInstanceState);
 
 
-
-
 }

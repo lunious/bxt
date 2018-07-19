@@ -14,7 +14,6 @@
         <activity
             android:name=".ui.launcher.LauncherActivity"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Launcher"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
